@@ -35,7 +35,7 @@ export default function Sidebar() {
           <div className="sidebarMenu">
             <h3 className="sidebarTitle">Quick menu</h3>
             <ul className="sidebarList">
-              <li className="sidebarLsitsItem active">
+              <li className="sidebarLsitsItem ">
               <AccountCircleIcon className='sidebarIcon'/> Users
               </li>
               <li className="sidebarLsitsItem">
@@ -54,7 +54,7 @@ export default function Sidebar() {
           <div className="sidebarMenu">
             <h3 className="sidebarTitle">Notifications</h3>
             <ul className="sidebarList">
-              <li className="sidebarLsitsItem active">
+              <li className="sidebarLsitsItem ">
               <MarkEmailReadIcon className='sidebarIcon'/> Mail
               </li>
               <li className="sidebarLsitsItem">
