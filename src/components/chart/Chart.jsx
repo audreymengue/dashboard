@@ -1,16 +1,16 @@
 import React from 'react'
 import "./chart.css"
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import { LineChart, Line, XAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 export default function Chart() {
     const data = [
   {
-    name: 'January',
+    name: 'Jan',
    "Active User": 4000,
     
   },
   {
-    name: 'February',
+    name: 'Feb',
    "Active User": 7000,
     
   },
@@ -40,27 +40,27 @@ export default function Chart() {
     
   },
   {
-    name: 'August',
+    name: 'Aug',
    "Active User": 3490,
     
   },
   {
-    name: 'September',
+    name: 'Sept',
    "Active User": 1490,
     
   },
   {
-    name: 'October',
+    name: 'Oct',
    "Active User": 490,
     
   },
   {
-    name: 'November',
+    name: 'Nov',
    "Active User": 3490,
     
   },
   {
-    name: 'December',
+    name: 'Dec',
    "Active User": 6490,
     
   },
