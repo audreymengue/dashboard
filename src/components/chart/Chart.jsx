@@ -82,10 +82,10 @@ export default function Chart() {
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" stroke='#555'/>
+          <XAxis dataKey="name" stroke='#5550bd'/>
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="Active User" stroke="#555" activeDot={{ r: 8 }} />
+          <Line type="monotone" dataKey="Active User" stroke="#8884d8" activeDot={{ r: 8 }} />
           
         </LineChart>
       </ResponsiveContainer>
