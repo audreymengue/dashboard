@@ -2,73 +2,12 @@ import React from 'react'
 import "./chart.css"
 import { LineChart, Line, XAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
-export default function Chart() {
-    const data = [
-  {
-    name: 'Jan',
-   "Active User": 4000,
+export default function Chart({title, data, dataKey}) {
     
-  },
-  {
-    name: 'Feb',
-   "Active User": 7000,
-    
-  },
-  {
-    name: 'March',
-   "Active User": 2000,
-  
-  },
-  {
-    name: 'April',
-   "Active User": 2780,
-    
-  },
-  {
-    name: 'May',
-   "Active User": 1890,
-    
-  },
-  {
-    name: 'June',
-   "Active User": 2390,
-
-  },
-  {
-    name: 'July',
-   "Active User": 3490,
-    
-  },
-  {
-    name: 'Aug',
-   "Active User": 3490,
-    
-  },
-  {
-    name: 'Sept',
-   "Active User": 1490,
-    
-  },
-  {
-    name: 'Oct',
-   "Active User": 490,
-    
-  },
-  {
-    name: 'Nov',
-   "Active User": 3490,
-    
-  },
-  {
-    name: 'Dec',
-   "Active User": 6490,
-    
-  },
-];
 
   return (
     <div className='chart'>
-        <h3 className="chartTitle">User Analytics</h3>
+        <h3 className="chartTitle">{title}</h3>
         <ResponsiveContainer width="100%" aspect={4/1}>
         <LineChart
           width={500}
@@ -85,7 +24,7 @@ export default function Chart() {
           <XAxis dataKey="name" stroke='#203239'/>
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="Active User" stroke="#203239" activeDot={{ r: 8 }} />
+          <Line type="monotone" dataKey={dataKey} stroke="#203239" activeDot={{ r: 8 }} />
           
         </LineChart>
       </ResponsiveContainer>
