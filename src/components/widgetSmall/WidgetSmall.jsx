@@ -19,7 +19,7 @@ export default function WidgetSmall() {
             <span className="widgetSmallUserTitle">Software Engineer</span>
           </div>
           <button className="widgetSmallButton">
-            <VisibilityIcon />
+            <VisibilityIcon className="widgetSmallIcon"/>
             Display
           </button>
         </li>
@@ -30,7 +30,7 @@ export default function WidgetSmall() {
             <span className="widgetSmallUserTitle">Data scientist</span>
           </div>
           <button className="widgetSmallButton">
-            <VisibilityIcon />
+            <VisibilityIcon className="widgetSmallIcon"/>
             Display
           </button>
         </li>
@@ -41,7 +41,7 @@ export default function WidgetSmall() {
             <span className="widgetSmallUserTitle">QA tester</span>
           </div>
           <button className="widgetSmallButton">
-            <VisibilityIcon />
+            <VisibilityIcon className="widgetSmallIcon"/>
             Display
           </button>
         </li>
@@ -52,7 +52,7 @@ export default function WidgetSmall() {
             <span className="widgetSmallUserTitle">Java Developer</span>
           </div>
           <button className="widgetSmallButton">
-            <VisibilityIcon />
+            <VisibilityIcon className="widgetSmallIcon"/>
             Display
           </button>
         </li>
