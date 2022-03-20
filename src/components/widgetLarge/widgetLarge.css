@@ -3,3 +3,49 @@
     box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.1);
     padding: 20px;
 }
+.widgetLargeTitle{
+    font-size: 32px;
+    font-weight: 600;
+}
+.widgetLargeTable{
+    width: 100%;
+    border-spacing: 20px;
+}
+.widgetLargeTh{
+    text-align: left;
+}
+.widgetLargeUser{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.widgetLargeImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.widgetLargeDate,.widgetLargeAmount {
+    font-weight: lighter;
+
+}
+.widgetLargeButton{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 10px;
+    color: #555;
+    cursor: pointer;
+}
+.widgetLargeButton.Approved{
+background-color: rgb(212, 243, 230);
+color: rgb(11, 134, 93);
+}
+.widgetLargeButton.Declined{
+background-color: rgb(223, 211, 211);
+color: rgb(201, 49, 11);
+}
+.widgetLargeButton.Pending{
+background-color: rgb(199, 216, 221);
+color: rgb(8, 129, 129);
+}
